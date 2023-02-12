@@ -47,3 +47,16 @@ export const StyledButton = styled(Button)`
     color: ${lightTheme.colors.onSecondary};
   }
 `;
+
+export const StyledBackButton = styled(Button)`
+  background-color: ${lightTheme.colors.primary};
+  color: ${lightTheme.colors.onPrimary};
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+
+  &:hover {
+    background-color: ${lightTheme.colors.primary};
+    color: ${lightTheme.colors.onPrimary};
+  }
+`;

@@ -34,7 +34,12 @@ function LandingPage() {
             Last workout: 10.10.2021
           </Row>
           <StyledButton variant="contained">Add workout</StyledButton>
-          <StyledButton variant="contained">List workouts</StyledButton>
+          <StyledButton
+            variant="contained"
+            onClick={() => (window.location.href = "/workouts")}
+          >
+            List workouts
+          </StyledButton>
         </StyledBox>
         <StyledBox>
           <BoxTitle>Physique</BoxTitle>
