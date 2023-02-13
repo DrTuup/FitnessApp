@@ -19,6 +19,12 @@ export const BoxTitle = styled.h3`
   color: ${lightTheme.colors.onPrimary};
 `;
 
+export const ExerciseTitle = styled.h3`
+  margin: 0;
+  font-weight: 700;
+  color: ${lightTheme.colors.onPrimary};
+`;
+
 export const Row = styled.span`
   display: flex;
   flex-direction: row;
