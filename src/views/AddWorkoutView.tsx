@@ -1,7 +1,6 @@
 import { Container } from "@mui/material";
 import BackButton from "../components/BackButton";
 import { TitleText, SubTitleText } from "../styles";
-import { lightTheme } from "../themes";
 import { StyledTextField } from "../styles";
 
 export function AddWorkoutView() {
