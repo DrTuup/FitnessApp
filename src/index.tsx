@@ -5,6 +5,7 @@ import { createBrowserRouter } from "react-router-dom";
 import LandingPage from "./views/Landingpage";
 import { RouterProvider } from "react-router";
 import WorkoutsListView from "./views/WorkoutsListView";
+import { AddWorkoutView } from "./views/AddWorkoutView";
 
 const Router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const Router = createBrowserRouter([
   {
     path: "/workouts",
     element: <WorkoutsListView />,
+  },
+  {
+    path: "/addworkout",
+    element: <AddWorkoutView />,
   },
 ]);
 

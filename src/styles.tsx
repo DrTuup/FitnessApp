@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { Box, Button } from "@mui/material";
+import { Box, Button, TextField } from "@mui/material";
 import { lightTheme } from "./themes";
 
 export const StyledBox = styled(Box)`
@@ -64,5 +64,17 @@ export const StyledBackButton = styled(Button)`
   &:hover {
     background-color: ${lightTheme.colors.primary};
     color: ${lightTheme.colors.onPrimary};
+  }
+`;
+
+export const StyledTextField = styled(TextField)`
+  & .MuiOutlinedInput-root {
+    &.Mui-focused fieldset {
+      border-color: ${lightTheme.colors.primary};
+    }
+  }
+
+  & label.Mui-focused {
+    color: ${lightTheme.colors.primary};
   }
 `;
