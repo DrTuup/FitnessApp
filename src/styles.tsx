@@ -77,4 +77,6 @@ export const StyledTextField = styled(TextField)`
   & label.Mui-focused {
     color: ${lightTheme.colors.primary};
   }
+
+  width: 100%;
 `;
